@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LowLayer
+    uniqueID: 331500749
+    locked: 0
+  - name: LowDetails
+    uniqueID: 3778827125
+    locked: 0
+  - name: MidLayer
+    uniqueID: 3892374565
+    locked: 0
+  - name: HighLayer
+    uniqueID: 2962138435
+    locked: 0
+  - name: HighDetails
+    uniqueID: 2665234665
+    locked: 0
