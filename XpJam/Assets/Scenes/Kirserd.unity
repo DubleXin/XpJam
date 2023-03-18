@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 14375670}
   - component: {fileID: 14375672}
   - component: {fileID: 14375673}
+  - component: {fileID: 14375674}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -185,7 +186,7 @@ SpriteRenderer:
   m_SortingLayerID: -402592731
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 1638295664, guid: 25996343bcc5540a2ac8010063d27826, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -205,8 +206,8 @@ Transform:
   m_GameObject: {fileID: 14375667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.05, y: -0.02, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.85, z: 0.85}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -245,8 +246,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.99999994, y: 0.99999994}
+  m_Offset: {x: 0, y: 0.03}
+  m_Size: {x: 0.13, y: 0.06}
   m_Direction: 0
 --- !u!114 &14375672
 MonoBehaviour:
@@ -272,6 +273,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90faa2a385b924647bfe853695f9649e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &14375674
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14375667}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 823efbca1688bb0439b1a8931caeee2a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &36212265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1382,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01cb6ea1b45d70243960f8f29e2ceab0, type: 2}
+  - {fileID: 2100000, guid: e2bf59d09d6962042bd5bb45842a0536, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1383,7 +1404,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.3488756, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
