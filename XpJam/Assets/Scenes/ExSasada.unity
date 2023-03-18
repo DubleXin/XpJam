@@ -259,10 +259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfa92a1c12fbab48805ac9a382d48ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: {x: 0, y: 0}
-  Acceleration: 2
-  Decceleration: 1
-  MaxSpeed: 5
+  _direction: {x: 0, y: 0}
+  _acceleration: 5
+  _linearDrag: 10
+  _maxSpeed: 15
 --- !u!1 &36212265
 GameObject:
   m_ObjectHideFlags: 0
