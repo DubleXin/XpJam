@@ -60,7 +60,7 @@ public class TopDownMovement : MonoBehaviour
     private void SpeedCutOff()
     {
         if (Mathf.Abs(_rigidbody.velocity.x) > _maxSpeed)
-            _rigidbody.velocity = new(Mathf.Sign(_rigidbody.velocity.x)*_maxSpeed,_rigidbody.velocity.y);
+            _rigidbody.velocity = new(Mathf.Sign(_rigidbody.velocity.x)*_maxSpeed, _rigidbody.velocity.y);
         if (Mathf.Abs(_rigidbody.velocity.y) > _maxSpeed)
             _rigidbody.velocity = new(_rigidbody.velocity.x, Mathf.Sign(_rigidbody.velocity.y) * _maxSpeed);
     }

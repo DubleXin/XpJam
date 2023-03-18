@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private TopDownMovement _playerMovement;
     private Dash _playerDash;
     private Rigidbody2D _playerRigidbody;
+
     [Header("Movement params")]
     [SerializeField] private float _movementSpeed;
     [SerializeField] private float _acceleration;
