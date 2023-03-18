@@ -7,6 +7,7 @@ public class LoadLevelData : MonoBehaviour
     private GameObject _player;
     private void Awake()
     {
+        StateMachine.LevelStatus = StateMachine.LevelStage.ON_OVERWORLD;
         _player = GameObject.FindGameObjectWithTag("Player");
         if(TryGetLevelData(out object[] data))
         {
@@ -16,7 +17,6 @@ public class LoadLevelData : MonoBehaviour
                 {
                     if (obj is Vector3)
                     {
-                        Debug.Log((Vector3)obj);
                         _player.transform.position = (Vector3)obj;
                         continue;
                     }
@@ -26,7 +26,7 @@ public class LoadLevelData : MonoBehaviour
                         for (int i = 0; i < actuators.Length; i++)
                         {
                             string[] args = actuators[i].name.Split('_');
-                            //actuators[i].GetComponent<Terminal>().LoadParams(((bool[])obj)[int.Parse(args[1])]);
+                            actuators[i].GetComponent<Terminal>().LoadParams(((bool[])obj)[int.Parse(args[1])]);
                         }
                         continue;
                     }

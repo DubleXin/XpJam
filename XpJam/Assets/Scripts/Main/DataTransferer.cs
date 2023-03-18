@@ -8,9 +8,7 @@ public static class DataTransferer
     public static void UpdateData(string key, object[] data)
     {
         if (Data.ContainsKey(key))
-        {
             Data[key] = data; 
-        }
         else Data.Add(key, data);
     }
 }

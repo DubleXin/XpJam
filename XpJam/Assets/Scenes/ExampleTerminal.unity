@@ -1402,6 +1402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelName: ExSasada
+  _irl: 0
 --- !u!61 &1994930496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1531,6 +1532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004773954}
   - component: {fileID: 2004773953}
+  - component: {fileID: 2004773955}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -1568,6 +1570,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004773955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004773952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6bd2d68cfea2f44b908823eda6fb760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2085140825
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDash(InputAction.CallbackContext context)
     {
-        if (_canDash)
+            if (_canDash && StateMachine.LevelStatus == StateMachine.LevelStage.ON_HACKING)
             _playerDash.PerformDash(_canDash, _isDashing,
                 _dashingTime, _dashingCooldown, _dashingPower,
                 _playerMovement.Direction, _playerRigidbody);
