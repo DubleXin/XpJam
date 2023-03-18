@@ -260,9 +260,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 0}
-  _acceleration: 5
-  _linearDrag: 10
-  _maxSpeed: 15
+  _acceleration: 60
+  _linearDrag: 80
+  _maxSpeed: 6
 --- !u!1 &36212265
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,19 +1,14 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class TopDownMovement : MonoBehaviour 
 {
     private Rigidbody2D _rigidbody;
     [Header("Movement params")]
-    [SerializeField]
-    private Vector2 _direction;
-    [SerializeField]
-    private float _acceleration;
-    [SerializeField]
-    private float _linearDrag;
-    [SerializeField]
-    private float _maxSpeed;
+    [SerializeField] private Vector2 _direction;
+    [SerializeField] private float _acceleration;
+    [SerializeField] private float _linearDrag;
+    [SerializeField] private float _maxSpeed;
 
     private void Awake() 
     {
@@ -30,7 +25,7 @@ public class TopDownMovement : MonoBehaviour
     }
     private void SpeedCutOff()
     {
-        if(Mathf.Abs(_rigidbody.velocity.x) > _maxSpeed)
+        if (Mathf.Abs(_rigidbody.velocity.x) > _maxSpeed)
             _rigidbody.velocity = new(Mathf.Sign(_rigidbody.velocity.x)*_maxSpeed,_rigidbody.velocity.y);
         if (Mathf.Abs(_rigidbody.velocity.y) > _maxSpeed)
             _rigidbody.velocity = new(_rigidbody.velocity.x, Mathf.Sign(_rigidbody.velocity.y) * _maxSpeed);
