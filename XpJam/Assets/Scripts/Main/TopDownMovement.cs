@@ -14,9 +14,9 @@ public class TopDownMovement : MonoBehaviour
         Direction = Vector2.zero;
         _rigidbody = GetComponent<Rigidbody2D>();
     }
-    private void FixedUpdate() => Move(Direction);
+    private void FixedUpdate() => Move();
 
-    private void Move(Vector2 direction)
+    private void Move()
     {
         Accelerate();
         SpeedCutOff();
