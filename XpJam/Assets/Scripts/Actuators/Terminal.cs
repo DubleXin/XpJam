@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 public class Terminal : MonoBehaviour, IActuator
 {
     [SerializeField] private string _levelName;
-    [SerializeField] private bool _irl;
-    [SerializeField] private bool _used;
+    private bool _used;
     public bool Used { get => _used; }
     private bool _wasLoaded = false;
     [System.Obsolete]
@@ -15,7 +14,7 @@ public class Terminal : MonoBehaviour, IActuator
             return;
         _used = true;
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (_irl)
+        if (StateMachine.LevelStatus == StateMachine.LevelStage.ON_OVERWORLD)
         {
             bool[] terminalData = MakeTerminalsArray();
             DataTransferer.UpdateData(DataTransferer.GeneralPreviousLevelName, new object[] { player.transform.position, terminalData });
