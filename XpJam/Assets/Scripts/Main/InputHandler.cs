@@ -24,14 +24,41 @@ public partial class @InputHandler : IInputActionCollection2, IDisposable
     ""name"": ""InputHandler"",
     ""maps"": [
         {
-            ""name"": ""New action map"",
-            ""id"": ""27f5893e-9e89-42b4-aabf-90d69265914b"",
+            ""name"": ""Player"",
+            ""id"": ""898134ec-f5b3-4355-9b1a-5786e0902333"",
             ""actions"": [
                 {
-                    ""name"": ""New action"",
+                    ""name"": ""Movement"",
+                    ""type"": ""Value"",
+                    ""id"": ""b83ae6f0-0471-4286-b1a8-b64a1057797b"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Crouch"",
                     ""type"": ""Button"",
-                    ""id"": ""9e398984-1828-4b98-856a-f07ac6e1f7e7"",
+                    ""id"": ""873c4b14-c3c5-4d5b-9ca0-cb8c44f51313"",
                     ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""Button"",
+                    ""id"": ""d2800131-99ab-40a5-b422-d9686ab95dff"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Look"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""89e2c61f-92a7-4030-a714-22a76fed646b"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -39,13 +66,90 @@ public partial class @InputHandler : IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": """",
-                    ""id"": ""6a142140-a42d-4090-94d0-ec88bfa36760"",
-                    ""path"": """",
+                    ""name"": ""WASD"",
+                    ""id"": ""6083d4c1-b5ee-4eeb-957b-0a6aa206ccf9"",
+                    ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""Movement"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Up"",
+                    ""id"": ""811af64b-bde2-4d27-903c-53e38c98cec8"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Down"",
+                    ""id"": ""528b1a91-09e4-46a8-b7f9-c7f44592a6bc"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Left"",
+                    ""id"": ""168a1dcf-7dfb-44e9-b97e-ae25109b0e35"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Right"",
+                    ""id"": ""916320ee-ce97-4627-8581-47a086735711"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1606d43a-11d9-497d-b476-ed5693260578"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Crouch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1787ac78-9956-4ed4-82a5-3cd9b077afd9"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""eefcdc92-8640-443f-baaa-3ef4288d5e8f"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -54,9 +158,12 @@ public partial class @InputHandler : IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // New action map
-        m_Newactionmap = asset.FindActionMap("New action map", throwIfNotFound: true);
-        m_Newactionmap_Newaction = m_Newactionmap.FindAction("New action", throwIfNotFound: true);
+        // Player
+        m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
+        m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
+        m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
+        m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+        m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -113,40 +220,67 @@ public partial class @InputHandler : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // New action map
-    private readonly InputActionMap m_Newactionmap;
-    private INewactionmapActions m_NewactionmapActionsCallbackInterface;
-    private readonly InputAction m_Newactionmap_Newaction;
-    public struct NewactionmapActions
+    // Player
+    private readonly InputActionMap m_Player;
+    private IPlayerActions m_PlayerActionsCallbackInterface;
+    private readonly InputAction m_Player_Movement;
+    private readonly InputAction m_Player_Crouch;
+    private readonly InputAction m_Player_Attack;
+    private readonly InputAction m_Player_Look;
+    public struct PlayerActions
     {
         private @InputHandler m_Wrapper;
-        public NewactionmapActions(@InputHandler wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Newactionmap_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Newactionmap; }
+        public PlayerActions(@InputHandler wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movement => m_Wrapper.m_Player_Movement;
+        public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
+        public InputAction @Attack => m_Wrapper.m_Player_Attack;
+        public InputAction @Look => m_Wrapper.m_Player_Look;
+        public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(NewactionmapActions set) { return set.Get(); }
-        public void SetCallbacks(INewactionmapActions instance)
+        public static implicit operator InputActionMap(PlayerActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerActions instance)
         {
-            if (m_Wrapper.m_NewactionmapActionsCallbackInterface != null)
+            if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_NewactionmapActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_NewactionmapActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_NewactionmapActionsCallbackInterface.OnNewaction;
+                @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Crouch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @Crouch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @Crouch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                @Attack.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
+                @Attack.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
+                @Attack.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAttack;
+                @Look.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
+                @Look.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
+                @Look.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
             }
-            m_Wrapper.m_NewactionmapActionsCallbackInterface = instance;
+            m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
+                @Crouch.started += instance.OnCrouch;
+                @Crouch.performed += instance.OnCrouch;
+                @Crouch.canceled += instance.OnCrouch;
+                @Attack.started += instance.OnAttack;
+                @Attack.performed += instance.OnAttack;
+                @Attack.canceled += instance.OnAttack;
+                @Look.started += instance.OnLook;
+                @Look.performed += instance.OnLook;
+                @Look.canceled += instance.OnLook;
             }
         }
     }
-    public NewactionmapActions @Newactionmap => new NewactionmapActions(this);
-    public interface INewactionmapActions
+    public PlayerActions @Player => new PlayerActions(this);
+    public interface IPlayerActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnMovement(InputAction.CallbackContext context);
+        void OnCrouch(InputAction.CallbackContext context);
+        void OnAttack(InputAction.CallbackContext context);
+        void OnLook(InputAction.CallbackContext context);
     }
 }
