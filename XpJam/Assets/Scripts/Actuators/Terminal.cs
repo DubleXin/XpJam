@@ -10,7 +10,8 @@ public class Terminal : MonoBehaviour, IActuator
         if (_used)
             return;
 
-        SceneManager.LoadScene(_levelName, LoadSceneMode.Single);
+        DataTransferer.UpdateData("PrevLevel", SceneManager.GetActiveScene());
+        SceneManager.LoadScene(_levelName, LoadSceneMode.Additive);
         _used = true;
     }
 }

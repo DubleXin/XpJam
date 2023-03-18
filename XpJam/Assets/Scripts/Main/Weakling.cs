@@ -16,6 +16,6 @@ public class Weakling : MonoBehaviour
         _isDead = true;
 
         yield return new WaitForSeconds(0.2f);
-        SceneManager.LoadScene(DataTransferer.Data["RealLevel"], LoadSceneMode.Single);
+        SceneManager.LoadScene(DataTransferer.Data["RealLevel"] as string, LoadSceneMode.Single);
     }
 }
