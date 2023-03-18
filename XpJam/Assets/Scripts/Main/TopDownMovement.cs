@@ -1,17 +1,23 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TopDownMovement : MonoBehaviour 
 {
     private Rigidbody2D _rigidbody;
-    public Vector2 Direction;
-    public float Acceleration;
-    public float Decceleration;
-    public float MaxSpeed;
+    [Header("Movement params")]
+    [SerializeField]
+    private Vector2 _direction;
+    [SerializeField]
+    private float _acceleration;
+    [SerializeField]
+    private float _linearDrag;
+    [SerializeField]
+    private float _maxSpeed;
 
     private void Awake() 
     {
-        Direction = Vector2.zero;
+        _direction = Vector2.zero;
         _rigidbody = GetComponent<Rigidbody2D>();
     }
     private void FixedUpdate() => Move();
@@ -20,23 +26,24 @@ public class TopDownMovement : MonoBehaviour
     {
         Accelerate();
         SpeedCutOff();
-        Decelerate();
+        LinearDrag();
     }
     private void SpeedCutOff()
     {
-        if (_rigidbody.velocity.magnitude > MaxSpeed)
-            _rigidbody.velocity = new(Mathf.Sign(_rigidbody.velocity.x) * MaxSpeed, MathF.Sign(_rigidbody.velocity.y) * MaxSpeed);
+        if(Mathf.Abs(_rigidbody.velocity.x) > _maxSpeed)
+            _rigidbody.velocity = new(Mathf.Sign(_rigidbody.velocity.x)*_maxSpeed,_rigidbody.velocity.y);
+        if (Mathf.Abs(_rigidbody.velocity.y) > _maxSpeed)
+            _rigidbody.velocity = new(_rigidbody.velocity.x, Mathf.Sign(_rigidbody.velocity.y) * _maxSpeed);
     }
-    private void Decelerate()
+    private void LinearDrag()
     {
-        if (Direction == Vector2.zero
-            || Direction.x > 0 && _rigidbody.velocity.x < 0
-            || Direction.x < 0 && _rigidbody.velocity.x > 0
-            || Direction.y > 0 && _rigidbody.velocity.y < 0
-            || Direction.y < 0 && _rigidbody.velocity.y > 0)
-            _rigidbody.velocity = new(_rigidbody.velocity.x * Decceleration, _rigidbody.velocity.y * Decceleration);
+        if (_direction == Vector2.zero || Mathf.Abs(_direction.x) <= 0.4 && Mathf.Abs(_direction.y) <= 0.4)
+            _rigidbody.drag = _linearDrag;
+        else
+            _rigidbody.drag = 0f;
     }
+    public void OnMove(InputAction.CallbackContext context) => _direction = context.ReadValue<Vector2>();
     private void Accelerate() 
-        => _rigidbody.AddForce(new(Direction.x * Acceleration, Direction.y * Acceleration));
-    public void StopAll() => Direction = Vector2.zero;
+        => _rigidbody.AddForce(new(_direction.x * _acceleration, _direction.y * _acceleration));
+    public void StopAll() => _direction = Vector2.zero;
 }

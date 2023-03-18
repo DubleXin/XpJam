@@ -4,7 +4,6 @@ public class InputSubscriber : MonoBehaviour
 {
     private InputHandler _inputHandler;
     private TopDownMovement _playerMovement;
-    private InputAction _moveAction;
 
     private GameObject _player;
 
@@ -12,28 +11,22 @@ public class InputSubscriber : MonoBehaviour
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         _inputHandler = new InputHandler();
-        _moveAction = _inputHandler.Player.Movement;
         _playerMovement = _player.GetComponent<TopDownMovement>();
         SubscribeNecessaries();
         SubscribeCharacterDependant();
-    }
-    private void FixedUpdate()
-    {
-        //Debug.Log($"{_moveAction.ReadValue<Vector2>().x} { _moveAction.ReadValue<Vector2>().y}");
     }
     private void SubscribeNecessaries()
     {
     }
     private void SubscribeCharacterDependant()
     {
-        _inputHandler.Player.Movement.performed += _ => _playerMovement.Direction = _.ReadValue<Vector2>();
-        _inputHandler.Player.Movement.performed += _ => Debug.Log($"{_.ReadValue<Vector2>()}");
-       // _inputHandler.Player.Movement.canceled += _ => _playerMovement.Direction = Vector2.zero;
+        _inputHandler.Player.Movement.performed += _playerMovement.OnMove;
+        _inputHandler.Player.Movement.canceled += _playerMovement.OnMove;
     }
     public void UnsubscribeCharacterDependant()
     {
-        _inputHandler.Player.Movement.performed -= _ => _playerMovement.Direction = _.ReadValue<Vector2>();
-       // _inputHandler.Player.Movement.canceled -= _ => _playerMovement.Direction = Vector2.zero;
+        _inputHandler.Player.Movement.performed -= _playerMovement.OnMove;
+        _inputHandler.Player.Movement.canceled -= _playerMovement.OnMove;
     }
     private void OnEnable()
     {
