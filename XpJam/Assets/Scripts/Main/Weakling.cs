@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Weakling : MonoBehaviour
 {
     private bool _isDead = false;
-    private void Awake() => DataTransferer.UpdateData("RealLevel", SceneManager.GetActiveScene().name);
+    private void Awake() => DataTransferer.UpdateData("RealLevel", new object[] { SceneManager.GetActiveScene().name });
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Obstacle") && !_isDead)
@@ -16,6 +16,6 @@ public class Weakling : MonoBehaviour
         _isDead = true;
 
         yield return new WaitForSeconds(0.2f);
-        SceneManager.LoadScene(DataTransferer.Data["RealLevel"] as string, LoadSceneMode.Single);
+        SceneManager.LoadScene(DataTransferer.Data["RealLevel"][0] as string, LoadSceneMode.Single);
     }
 }
