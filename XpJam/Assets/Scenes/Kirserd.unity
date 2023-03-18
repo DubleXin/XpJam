@@ -139,7 +139,8 @@ GameObject:
   - component: {fileID: 14375672}
   - component: {fileID: 14375673}
   - component: {fileID: 14375675}
-  m_Layer: 0
+  - component: {fileID: 14375676}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -310,6 +311,26 @@ MonoBehaviour:
   _acceleration: 40
   _linearDrag: 15
   _maxSpeed: 5
+--- !u!114 &14375676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14375667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681917a84a3ad4348b5b88f8b48990fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerMovement: {fileID: 0}
+  _movementSpeed: 5
+  _acceleration: 40
+  _linearDrag: 15
+  _movementRate: 0.5
+  _accelerationRate: 0.5
+  _linearDragRate: 0.5
+  _isCrouching: 0
 --- !u!1 &36212265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,10 +1129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1264686643}
   - component: {fileID: 1264686645}
+  - component: {fileID: 1264686648}
   - component: {fileID: 1264686647}
   - component: {fileID: 1264686644}
   - component: {fileID: 1264686646}
-  - component: {fileID: 1264686648}
   m_Layer: 0
   m_Name: Guardian
   m_TagString: Actuator
@@ -1148,8 +1169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 0}
   _acceleration: 40
-  _linearDrag: 15
-  _maxSpeed: 5
+  _linearDrag: 25
+  _maxSpeed: 3
 --- !u!212 &1264686645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1192,7 +1213,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.55743456, b: 0.4292453, a: 1}
+  m_Color: {r: 0.6981132, g: 0.21918435, b: 0.1745283, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1214,6 +1235,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2eb324d447e544aa47fb2cd997054c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _visionRadius: 0
+  _patrolDestinations:
+  - {x: 1, y: 1}
+  - {x: -1, y: -1}
+  - {x: 2, y: -1}
+  - {x: -1, y: 2}
 --- !u!50 &1264686647
 Rigidbody2D:
   serializedVersion: 4

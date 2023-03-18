@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Actuator
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Creature
   - Water
   - UI
   - 
