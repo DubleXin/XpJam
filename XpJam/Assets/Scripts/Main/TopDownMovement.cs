@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class TopDownMovement : MonoBehaviour 
@@ -11,6 +12,14 @@ public class TopDownMovement : MonoBehaviour
     [SerializeField] private float _acceleration;
     [SerializeField] private float _linearDrag;
     [SerializeField] private float _maxSpeed;
+    
+    
+    public float AccelerationParam { get => _acceleration; }
+    public float MaxSpeedParam { get => _maxSpeed; }
+    public float LinearDragParam { get => _linearDrag; }
+    
+    public delegate void OnParamsChangedHandler(object sender, params float[] args);
+    public event OnParamsChangedHandler OnParamsChanged;
 
     private void Awake() 
     {
@@ -18,6 +27,20 @@ public class TopDownMovement : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _renderer = GetComponent<SpriteRenderer>();
+        
+    }
+
+    public void SetMovementParams(float maxSpeed, float acceleration, float linearDrag)
+    {
+        _acceleration = acceleration;
+        _maxSpeed = maxSpeed;
+        _linearDrag = linearDrag;
+        OnMovementParamsChanged(new float[] {maxSpeed,acceleration, linearDrag });
+    }
+    private void OnMovementParamsChanged( float[] args)
+    {
+        if (OnParamsChanged != null)
+            OnParamsChanged(this, args);
     }
     private void FixedUpdate() => Move();
 
@@ -52,6 +75,7 @@ public class TopDownMovement : MonoBehaviour
             _rigidbody.drag = 0f;
     }
     public void OnMove(InputAction.CallbackContext context) => _direction = context.ReadValue<Vector2>();
+    public void OnMove(Vector2 direction) => _direction = direction;
     private void Accelerate() 
         => _rigidbody.AddForce(new(_direction.x * _acceleration, _direction.y * _acceleration));
     public void StopAll() => _direction = Vector2.zero;

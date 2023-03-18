@@ -3,7 +3,8 @@ using UnityEngine.InputSystem;
 public class InputSubscriber : MonoBehaviour
 {
     private InputHandler _inputHandler;
-    private TopDownMovement _playerMovement;
+    private TopDownMovement _playerTopDownMovement;
+    private PlayerMovement _playerMovement;
 
     private GameObject _player;
 
@@ -11,7 +12,7 @@ public class InputSubscriber : MonoBehaviour
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         _inputHandler = new InputHandler();
-        _playerMovement = _player.GetComponent<TopDownMovement>();
+        _playerTopDownMovement = _player.GetComponent<TopDownMovement>();
         SubscribeNecessaries();
         SubscribeCharacterDependant();
     }
@@ -20,24 +21,28 @@ public class InputSubscriber : MonoBehaviour
     }
     private void SubscribeCharacterDependant()
     {
-        _inputHandler.Player.Movement.performed += _playerMovement.OnMove;
-        _inputHandler.Player.Movement.canceled += _playerMovement.OnMove;
+        _inputHandler.Player.Movement.performed += _playerTopDownMovement.OnMove;
+        _inputHandler.Player.Movement.canceled += _playerTopDownMovement.OnMove;
+        _inputHandler.Player.Crouch.started += _playerMovement.OnCrouch;
         _inputHandler.Player.Interact.started += _player.GetComponent<Sensor>().Activate;
     }
     public void UnsubscribeCharacterDependant()
     {
-        _inputHandler.Player.Movement.performed -= _playerMovement.OnMove;
-        _inputHandler.Player.Movement.canceled -= _playerMovement.OnMove;
+        _inputHandler.Player.Movement.performed -= _playerTopDownMovement.OnMove;
+        _inputHandler.Player.Movement.canceled -= _playerTopDownMovement.OnMove;
+        _inputHandler.Player.Crouch.started -= _playerMovement.OnCrouch;
         _inputHandler.Player.Interact.started -= _player.GetComponent<Sensor>().Activate;
     }
     private void OnEnable()
     {
         _inputHandler.Player.Movement.Enable();
+        _inputHandler.Player.Crouch.Enable();
         _inputHandler.Player.Interact.Enable();
     }
     private void OnDisable()
     {
         _inputHandler.Player.Movement.Disable();
+        _inputHandler.Player.Crouch.Disable();
         _inputHandler.Player.Interact.Disable();
     }
 }
