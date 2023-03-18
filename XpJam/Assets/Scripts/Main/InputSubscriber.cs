@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class InputSubscriber : MonoBehaviour
 {
     private InputHandler _inputHandler;
@@ -26,6 +26,7 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Movement.canceled += _playerTopDownMovement.OnMove;
         _inputHandler.Player.Crouch.started += _playerMovement.OnCrouch;
         _inputHandler.Player.Crouch.canceled += _playerMovement.OnCrouch;
+        _inputHandler.Player.Dash.started += _playerMovement.OnDash;
         _inputHandler.Player.Interact.started += _player.GetComponent<Sensor>().Activate;
     }
     public void UnsubscribeCharacterDependant()
@@ -34,18 +35,21 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Movement.canceled -= _playerTopDownMovement.OnMove;
         _inputHandler.Player.Crouch.started -= _playerMovement.OnCrouch;
         _inputHandler.Player.Crouch.canceled -= _playerMovement.OnCrouch;
+        _inputHandler.Player.Dash.started += _playerMovement.OnDash;
         _inputHandler.Player.Interact.started -= _player.GetComponent<Sensor>().Activate;
     }
     private void OnEnable()
     {
         _inputHandler.Player.Movement.Enable();
         _inputHandler.Player.Crouch.Enable();
+        _inputHandler.Player.Dash.Enable();
         _inputHandler.Player.Interact.Enable();
     }
     private void OnDisable()
     {
         _inputHandler.Player.Movement.Disable();
         _inputHandler.Player.Crouch.Disable();
+        _inputHandler.Player.Dash.Disable();
         _inputHandler.Player.Interact.Disable();
     }
 }
