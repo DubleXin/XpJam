@@ -22,18 +22,22 @@ public class InputSubscriber : MonoBehaviour
     {
         _inputHandler.Player.Movement.performed += _playerMovement.OnMove;
         _inputHandler.Player.Movement.canceled += _playerMovement.OnMove;
+        _inputHandler.Player.Interact.started += _player.GetComponent<Sensor>().Activate;
     }
     public void UnsubscribeCharacterDependant()
     {
         _inputHandler.Player.Movement.performed -= _playerMovement.OnMove;
         _inputHandler.Player.Movement.canceled -= _playerMovement.OnMove;
+        _inputHandler.Player.Interact.started -= _player.GetComponent<Sensor>().Activate;
     }
     private void OnEnable()
     {
         _inputHandler.Player.Movement.Enable();
+        _inputHandler.Player.Interact.Enable();
     }
     private void OnDisable()
     {
         _inputHandler.Player.Movement.Disable();
+        _inputHandler.Player.Interact.Disable();
     }
 }

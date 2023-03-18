@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Sensor : MonoBehaviour
 {
-    public void Activate() => _activate = _inTrigger;
+    public void Activate(InputAction.CallbackContext callbackContext) => _activate = _inTrigger;
     private bool _activate = false;
     private bool _inTrigger = false;
     private void OnTriggerStay2D(Collider2D collision)
