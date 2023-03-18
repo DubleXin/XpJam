@@ -319,8 +319,8 @@ TextureImporter:
       name: player_reality_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 320
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -340,8 +340,8 @@ TextureImporter:
       name: player_reality_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 352
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -361,8 +361,8 @@ TextureImporter:
       name: player_reality_12
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 384
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -382,8 +382,8 @@ TextureImporter:
       name: player_reality_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 416
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -403,8 +403,8 @@ TextureImporter:
       name: player_reality_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 448
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -424,8 +424,8 @@ TextureImporter:
       name: player_reality_15
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
+        x: 480
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -445,8 +445,8 @@ TextureImporter:
       name: player_reality_16
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
+        x: 512
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -466,8 +466,8 @@ TextureImporter:
       name: player_reality_17
       rect:
         serializedVersion: 2
-        x: 224
-        y: 32
+        x: 544
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -487,7 +487,7 @@ TextureImporter:
       name: player_reality_18
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -508,7 +508,7 @@ TextureImporter:
       name: player_reality_19
       rect:
         serializedVersion: 2
-        x: 288
+        x: 32
         y: 32
         width: 32
         height: 32
@@ -529,8 +529,8 @@ TextureImporter:
       name: player_reality_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -550,8 +550,8 @@ TextureImporter:
       name: player_reality_21
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -571,8 +571,8 @@ TextureImporter:
       name: player_reality_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 128
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -592,8 +592,8 @@ TextureImporter:
       name: player_reality_23
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 160
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -613,8 +613,8 @@ TextureImporter:
       name: player_reality_24
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -634,8 +634,8 @@ TextureImporter:
       name: player_reality_25
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -655,8 +655,8 @@ TextureImporter:
       name: player_reality_26
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
+        x: 256
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -676,8 +676,8 @@ TextureImporter:
       name: player_reality_27
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
+        x: 288
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -697,8 +697,8 @@ TextureImporter:
       name: player_reality_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 320
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -718,8 +718,8 @@ TextureImporter:
       name: player_reality_29
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
+        x: 352
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -735,6 +735,510 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: player_reality_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4befdd14e2099cc42ac9290e66cde131
+      internalID: -1154532922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06180605403154a4bafb12a2ee16d418
+      internalID: 254887005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a34ff9b2eb1854d8ddf888bcc2278c
+      internalID: 456845029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb8bd0a8abea5c47b0ff3ed7e121ad0
+      internalID: -914281723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3389467026a5a448215f1d1368d805
+      internalID: -872009597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_35
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c6856d43dcc8e4d8bfb43d1db748f2
+      internalID: 536246024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a041841d9e02469c987a4ad3aa4f6
+      internalID: -582175658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd80218bf85e1d409a7459ea09ece46
+      internalID: 358233278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a59420a2ad01b44835d42c503c1798
+      internalID: 48863549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cb8584cd230354d98a50a718ab3886
+      internalID: -529550734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66ddfdae976c524e83d00f15de42270
+      internalID: 689515330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f96ba3d983f8a43a7a5c276bcaf628
+      internalID: 1428896214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa1bb4962ddb494e8f87dd8d199837c
+      internalID: 2045256020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ccdf39c2c742046a7e950eb0f443a2
+      internalID: -808028561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3f16f7c597f7488e2dbf444d05eac
+      internalID: -2019835712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f67f90d136e13f43976b8e384f18900
+      internalID: 102990744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf718336a3ea234dad5b9acb3b171dd
+      internalID: -553048179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f509973f05a17664ebd138ac6d07c025
+      internalID: 1977530899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b88f20cbcd8484586158ade2928399
+      internalID: 1114005234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9d486653f9ff449913f4bd9919eb5c
+      internalID: -827904543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab041540bdbbef48a0c4de8a760391a
+      internalID: 895352837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c5e0f661c7b94fb4a64fb5bff2e65
+      internalID: 556788871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713dde436390bf646a7ac81ae4fb5115
+      internalID: 783564189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_reality_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e05f6a53c9a8a64da7b755109e7968a
+      internalID: -24340319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -746,14 +1250,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      player_reality_22: 502581695
+      player_reality_32: 456845029
+      player_reality_35: 536246024
+      player_reality_41: 1428896214
+      player_reality_23: 558185340
+      player_reality_31: 254887005
+      player_reality_46: -553048179
+      player_reality_50: 895352837
+      player_reality_37: 358233278
+      player_reality_47: 1977530899
+      player_reality_6: -530446804
+      player_reality_12: 42810987
+      player_reality_40: 689515330
+      player_reality_27: 1149373697
+      player_reality_36: -582175658
+      player_reality_26: -747656284
+      player_reality_9: -1445277123
+      player_reality_48: 1114005234
+      player_reality_21: -1714586131
+      player_reality_24: 836874590
+      player_reality_51: 556788871
+      player_reality_11: -1069372990
+      player_reality_52: 783564189
+      player_reality_45: 102990744
+      player_reality_44: -2019835712
       player_reality_10: 1638295664
       player_reality_29: 2140055124
       player_reality_19: -1064838480
-      player_reality_22: 502581695
-      player_reality_23: 558185340
+      player_reality_49: -827904543
       player_reality_17: 1239469396
       player_reality_13: 1962779450
-      player_reality_6: -530446804
+      player_reality_39: -529550734
       player_reality_5: -907193396
       player_reality_1: -1426591751
       player_reality_3: -399631089
@@ -761,21 +1289,21 @@ TextureImporter:
       player_reality_8: -978556438
       player_reality_14: 39016879
       player_reality_0: 1911903047
-      player_reality_12: 42810987
       player_reality_16: -684208319
+      player_reality_30: -1154532922
+      player_reality_33: -914281723
       player_reality_15: 1765042943
-      player_reality_27: 1149373697
       player_reality_2: 641281729
+      player_reality_53: -24340319
       player_reality_18: 581600150
-      player_reality_26: -747656284
-      player_reality_4: 1166749716
-      player_reality_9: -1445277123
-      player_reality_20: -665909647
-      player_reality_21: -1714586131
-      player_reality_24: 836874590
-      player_reality_25: -757089291
       player_reality_28: 812277236
-      player_reality_11: -1069372990
+      player_reality_4: 1166749716
+      player_reality_20: -665909647
+      player_reality_25: -757089291
+      player_reality_42: 2045256020
+      player_reality_34: -872009597
+      player_reality_38: 48863549
+      player_reality_43: -808028561
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,6 @@ public class TopDownMovement : MonoBehaviour
             OnParamsChanged(this, args);
     }
     private void FixedUpdate() => Move();
-
     private void Move()
     {
         Animate();
