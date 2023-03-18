@@ -28,7 +28,6 @@ public class TopDownMovement : MonoBehaviour
         Accelerate();
         SpeedCutOff();
         LinearDrag();
-        StopAll();
     }
     private void Animate()
     {
