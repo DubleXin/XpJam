@@ -20,7 +20,6 @@ public class TopDownMovement : MonoBehaviour
         _renderer = GetComponent<SpriteRenderer>();
     }
     private void FixedUpdate() => Move();
-
     private void Move()
     {
         Animate();
