@@ -1237,10 +1237,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _visionRadius: 0
   _patrolDestinations:
-  - {x: 1, y: 1}
-  - {x: -1, y: -1}
-  - {x: 2, y: -1}
-  - {x: -1, y: 2}
+  - {x: 1, y: 5}
+  - {x: -5, y: -1}
+  - {x: 3, y: -2}
+  - {x: -1, y: 5}
 --- !u!50 &1264686647
 Rigidbody2D:
   serializedVersion: 4
