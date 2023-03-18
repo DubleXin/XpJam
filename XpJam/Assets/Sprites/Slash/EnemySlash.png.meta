@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c3b47d13cb48740e4bec3df4bc1a8ba0
+guid: a17612ffc2267ec4fa54bc8cca8eedd9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,34 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hook_0
+      name: EnemySlash_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 15
-        width: 29
-        height: 28
-      alignment: 9
-      pivot: {x: 0.51724136, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e39efaea748dbff4a891c1d828fa8a4d
-      internalID: 1999739833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hook_1
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 4
-        width: 10
-        height: 10
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +132,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8992d86c29f27b458fb143e483499d3
-      internalID: -35334800
+      spriteID: 6414c59b4752d1047ba995ee67c73ff5
+      internalID: 107021495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySlash_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1af3f75b1ba04489672e7ab64ca052
+      internalID: 404595095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySlash_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c2931a794119249a790f47a6fe293c
+      internalID: -268529970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySlash_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4dae22334c90a4994f7695711414e9
+      internalID: -776515072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySlash_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284020723edeadd4e99eff40e9208ca4
+      internalID: 502552545
       vertices: []
       indices: 
       edges: []
@@ -170,8 +233,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hook_1: -35334800
-      hook_0: 1999739833
+      EnemySlash_0: 107021495
+      EnemySlash_2: -268529970
+      EnemySlash_1: 404595095
+      EnemySlash_3: -776515072
+      EnemySlash_4: 502552545
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

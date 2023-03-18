@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,9 +78,486 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8e9be86afe7e449236e0045991ff7
+      internalID: -1520844239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1ff2541534e93468564805d8fa4134
+      internalID: 393960621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b1125280448c45b64dad0b2cc5bfe
+      internalID: 1351118926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a382f6c528094abf2459de7b5fbe7
+      internalID: 1566462059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3db062fecbbfd84bab7f357915b6f26
+      internalID: -105169250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 75
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9cb0aa0d79f98468bf449d069f00a1
+      internalID: 1695813836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d8f31b79a5f6e4cbe150747fe422fa
+      internalID: 1973033415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4768f5509483d8e4db2eb879b92b9a58
+      internalID: 1882014719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f19bf71eefc6c4883322cff9df7a45
+      internalID: 353112571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a81790d797ac468036236cce5a616
+      internalID: 1112325432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa1a7592f1479f4b88f667a8676a4a4
+      internalID: 2065020489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 50
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146af7f17d90e60488f6297559d5fa84
+      internalID: -947943545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5059a60b2627ab94b8cc3c15148d1464
+      internalID: -883685475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f7d8d135786a34a913c40a52b11c5d
+      internalID: -22531486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6414e2831bbf34a9fec72e07c42979
+      internalID: 226483834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61859390a5bafd4ba2a06efc5b7e870
+      internalID: 1903651335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a691612b7a86145b8ee80d43881294
+      internalID: -1497772744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 25
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c3847038883649b91583e00a65c6e
+      internalID: -1779566295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e8f25af3b56c41babd7adac592f3c
+      internalID: -1385051384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a42b1519dd85f4c97908a8dcbeb5f3
+      internalID: -443117395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_hurt_new_29x25_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea79b73d422074ea1df84cd0c4abb9
+      internalID: -1179684806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -91,7 +568,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cloud_hurt_new_29x25_9: 1112325432
+      cloud_hurt_new_29x25_12: -883685475
+      cloud_hurt_new_29x25_19: -443117395
+      cloud_hurt_new_29x25_5: 1695813836
+      cloud_hurt_new_29x25_14: 226483834
+      cloud_hurt_new_29x25_2: 1351118926
+      cloud_hurt_new_29x25_16: -1497772744
+      cloud_hurt_new_29x25_7: 1882014719
+      cloud_hurt_new_29x25_18: -1385051384
+      cloud_hurt_new_29x25_3: 1566462059
+      cloud_hurt_new_29x25_15: 1903651335
+      cloud_hurt_new_29x25_4: -105169250
+      cloud_hurt_new_29x25_13: -22531486
+      cloud_hurt_new_29x25_20: -1179684806
+      cloud_hurt_new_29x25_11: -947943545
+      cloud_hurt_new_29x25_17: -1779566295
+      cloud_hurt_new_29x25_6: 1973033415
+      cloud_hurt_new_29x25_0: -1520844239
+      cloud_hurt_new_29x25_8: 353112571
+      cloud_hurt_new_29x25_10: 2065020489
+      cloud_hurt_new_29x25_1: 393960621
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

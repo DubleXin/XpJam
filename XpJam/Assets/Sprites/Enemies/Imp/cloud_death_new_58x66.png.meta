@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,9 +78,948 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76be15a84952aec458707d0536a0f4e9
+      internalID: 615171149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f88a8b8fc8d114782b8743997c94eb
+      internalID: -1232265235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18bf3b589fc8414989df57b0a588b14
+      internalID: -614515218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622ae89590120864c94926eeff1ffd07
+      internalID: 2046965764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02ba49db10155a489f93f2f0d0771e0
+      internalID: -1597612183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02370b5bbdcbcaa40bfb651c00fba842
+      internalID: 360279875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca3a92af7a5e8f44b5429088321d213
+      internalID: 1625914386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b5b6d17de37045874c8f95bd3f733
+      internalID: -1365618594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 396
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c06755c0f00ca44ab8f1b97e67e889e
+      internalID: -510209903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023a23e073fcdd3419b1a547adf87f10
+      internalID: 1960638888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d09f95c47e4b4b42a8a370fd93af4bd
+      internalID: -964786410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3495ccccde01fea4ab3731eb1d829f4c
+      internalID: -1957333495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093803246e7839b4380fc4e90445765b
+      internalID: 1531561049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d6aeb149309644d9eb38cbe75589da
+      internalID: -2039577878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48486016f60534f48b1bbeff0da9671f
+      internalID: 1945762987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_15
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c8d58ae988cd242b4552b7e4e0b06e
+      internalID: -1392015535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7138d632152a4a8ab617df77d0809
+      internalID: -1025088058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 330
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806b842e7b2347499640d14dc2c6842
+      internalID: 1251422599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c575a72d3dcc4d9d81746cdfe8509
+      internalID: 1000682750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c05470d22d8274faf065a31c3e285e
+      internalID: -206259059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ec85d1253e0324181669a86adb8fdf
+      internalID: 2038050173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2246d6765d0524409724321a945dc72
+      internalID: -917550275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99a76c60a741654f8769ce9cb3f96fd
+      internalID: -1225099695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c0473bcad2a64bb276c582e666102
+      internalID: -611769898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33be75746959c024cb4bf0ba8afae22d
+      internalID: 353818325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_25
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990feefd9973d5146936308450c92e68
+      internalID: -662325129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_26
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 264
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e51fac19873d045827fe4ddff31b77
+      internalID: -698175834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7796ab842a707c46b88092793d0a11f
+      internalID: 722683290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82a6f633a4216f49b8a4b0e9153d64b
+      internalID: -2113126373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_29
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ea5547071da3247903d71dfd927cfc
+      internalID: 591088155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_30
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f13f0c33e3a64b81128244a5af48c
+      internalID: 1330903078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65edc216b8e30f34d9e4883591a6fcef
+      internalID: 1471465285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f608d41a2c81f01418b33d202dc79c32
+      internalID: 334715566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_33
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907895ed4cceeb94d994e56c71a9e8d3
+      internalID: -1655551753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0192d2c8d90084f855f8c9d266244e
+      internalID: 970955432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_35
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 198
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3ca9991752d1f4585087c0cd5d5c67
+      internalID: 1197719280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52214edbe93b4b44b9d5be8619054e0e
+      internalID: 1839228249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_37
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 132
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04799647bd3c2f3438af28ee9852b1d1
+      internalID: -962709083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_38
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f342bb0a4ef50c44787f7291cb5db393
+      internalID: -1373409344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 132
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0494b7dbeb2b4caa2c784fb4794b2
+      internalID: -1635627637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_40
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 132
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6b804eddd84e14f8810da37982d328
+      internalID: 1122154001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_41
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 66
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5aa4e5577d4254fbda6e0abc28f988
+      internalID: 19600718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_death_new_58x66_42
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118acc69c9a32b0499e71a5d99fd7415
+      internalID: 1467489885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -91,7 +1030,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cloud_death_new_58x66_36: 1839228249
+      cloud_death_new_58x66_42: 1467489885
+      cloud_death_new_58x66_8: -510209903
+      cloud_death_new_58x66_7: -1365618594
+      cloud_death_new_58x66_15: -1392015535
+      cloud_death_new_58x66_21: -917550275
+      cloud_death_new_58x66_10: -964786410
+      cloud_death_new_58x66_41: 19600718
+      cloud_death_new_58x66_11: -1957333495
+      cloud_death_new_58x66_26: -698175834
+      cloud_death_new_58x66_1: -1232265235
+      cloud_death_new_58x66_27: 722683290
+      cloud_death_new_58x66_18: 1000682750
+      cloud_death_new_58x66_29: 591088155
+      cloud_death_new_58x66_17: 1251422599
+      cloud_death_new_58x66_12: 1531561049
+      cloud_death_new_58x66_35: 1197719280
+      cloud_death_new_58x66_33: -1655551753
+      cloud_death_new_58x66_32: 334715566
+      cloud_death_new_58x66_28: -2113126373
+      cloud_death_new_58x66_22: -1225099695
+      cloud_death_new_58x66_20: 2038050173
+      cloud_death_new_58x66_23: -611769898
+      cloud_death_new_58x66_2: -614515218
+      cloud_death_new_58x66_39: -1635627637
+      cloud_death_new_58x66_38: -1373409344
+      cloud_death_new_58x66_25: -662325129
+      cloud_death_new_58x66_37: -962709083
+      cloud_death_new_58x66_19: -206259059
+      cloud_death_new_58x66_0: 615171149
+      cloud_death_new_58x66_6: 1625914386
+      cloud_death_new_58x66_30: 1330903078
+      cloud_death_new_58x66_34: 970955432
+      cloud_death_new_58x66_5: 360279875
+      cloud_death_new_58x66_16: -1025088058
+      cloud_death_new_58x66_14: 1945762987
+      cloud_death_new_58x66_31: 1471465285
+      cloud_death_new_58x66_40: 1122154001
+      cloud_death_new_58x66_9: 1960638888
+      cloud_death_new_58x66_3: 2046965764
+      cloud_death_new_58x66_24: 353818325
+      cloud_death_new_58x66_4: -1597612183
+      cloud_death_new_58x66_13: -2039577878
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
