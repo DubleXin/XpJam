@@ -13,6 +13,7 @@ public class InputSubscriber : MonoBehaviour
         _player = GameObject.FindGameObjectWithTag("Player");
         _inputHandler = new InputHandler();
         _playerTopDownMovement = _player.GetComponent<TopDownMovement>();
+        _playerMovement = _player.GetComponent<PlayerMovement>();
         SubscribeNecessaries();
         SubscribeCharacterDependant();
     }
@@ -24,6 +25,7 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Movement.performed += _playerTopDownMovement.OnMove;
         _inputHandler.Player.Movement.canceled += _playerTopDownMovement.OnMove;
         _inputHandler.Player.Crouch.started += _playerMovement.OnCrouch;
+        _inputHandler.Player.Crouch.canceled += _playerMovement.OnCrouch;
         _inputHandler.Player.Interact.started += _player.GetComponent<Sensor>().Activate;
     }
     public void UnsubscribeCharacterDependant()
@@ -31,6 +33,7 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Movement.performed -= _playerTopDownMovement.OnMove;
         _inputHandler.Player.Movement.canceled -= _playerTopDownMovement.OnMove;
         _inputHandler.Player.Crouch.started -= _playerMovement.OnCrouch;
+        _inputHandler.Player.Crouch.canceled -= _playerMovement.OnCrouch;
         _inputHandler.Player.Interact.started -= _player.GetComponent<Sensor>().Activate;
     }
     private void OnEnable()

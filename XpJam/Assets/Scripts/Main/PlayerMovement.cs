@@ -4,8 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement components")]
-    [SerializeField] private TopDownMovement _playerMovement;
+     private TopDownMovement _playerMovement;
     [Header("Movement params")]
     [SerializeField] private float _movementSpeed;
     [SerializeField] private float _acceleration;
@@ -16,12 +15,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool _isCrouching;
     private void Awake()
     {
-       _playerMovement = GetComponent<TopDownMovement>(); 
+       _playerMovement = GetComponent<TopDownMovement>();
     }
-    public void OnCrouch(InputAction.CallbackContext context) 
-    { 
-        _isCrouching = context.ReadValue<bool>();
-        //if (_isCrouching)
-        //    _playerMovement.OnParamsChanged(_movementRate*_movementSpeed,);
+    public void OnCrouch(InputAction.CallbackContext context)
+    {
+        _isCrouching = context.ReadValue<float>() == 1 ? true : false;
+        if (_isCrouching)
+            _playerMovement.SetMovementParams(_movementSpeed * _movementRate, _acceleration * _accelerationRate, _linearDrag * _linearDragRate);
+        else
+            _playerMovement.SetMovementParams(_movementSpeed, _acceleration, _linearDrag);
     }
 }

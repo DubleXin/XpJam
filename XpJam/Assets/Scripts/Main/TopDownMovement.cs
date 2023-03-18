@@ -29,7 +29,6 @@ public class TopDownMovement : MonoBehaviour
         _renderer = GetComponent<SpriteRenderer>();
         
     }
-
     public void SetMovementParams(float maxSpeed, float acceleration, float linearDrag)
     {
         _acceleration = acceleration;
@@ -58,7 +57,6 @@ public class TopDownMovement : MonoBehaviour
         _animator.SetFloat("Vertical", _rigidbody.velocity.y);
     }
     private void Flip() => _renderer.flipX = _rigidbody.velocity.x < 0;
-    
     private void SpeedCutOff()
     {
         if (Mathf.Abs(_rigidbody.velocity.x) > _maxSpeed)
