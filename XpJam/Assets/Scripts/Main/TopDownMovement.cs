@@ -13,10 +13,10 @@ public class TopDownMovement : MonoBehaviour
     [SerializeField] private float _linearDrag;
     [SerializeField] private float _maxSpeed;
     
-    
     public float AccelerationParam { get => _acceleration; }
     public float MaxSpeedParam { get => _maxSpeed; }
     public float LinearDragParam { get => _linearDrag; }
+    public Vector2 Direction { get => _direction; }
     
     public delegate void OnParamsChangedHandler(object sender, params float[] args);
     public event OnParamsChangedHandler OnParamsChanged;
