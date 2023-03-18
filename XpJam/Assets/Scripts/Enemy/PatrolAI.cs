@@ -10,6 +10,7 @@ public class PatrolAI : MonoBehaviour
     }
     [SerializeField] private float _visionRadius;
     [SerializeField] private Vector2[] _patrolDestinations;
+    private bool _isWaiting;
     private int _currentDestination = 0;
     private PatrolState _state = PatrolState.PATROL;
     private TopDownMovement _movement;
@@ -42,6 +43,9 @@ public class PatrolAI : MonoBehaviour
     }
     private void Patrol()
     {
+        if (_isWaiting)
+            return;
+
         if (_currentDestination < _patrolDestinations.Length)
         {
             if (Vector2.Distance(transform.position, _patrolDestinations[_currentDestination]) > 1f)
@@ -52,11 +56,22 @@ public class PatrolAI : MonoBehaviour
                     _patrolDestinations[_currentDestination].y - transform.position.y)
                 );
             }
-            else _currentDestination++;
+            else
+            {
+                StartCoroutine(TakeLook());
+                _currentDestination++;
+            }
         }
         else _currentDestination = 0;
     }
-    private void Pursuit() 
+    private IEnumerator TakeLook() 
+    {
+        _movement.OnMove(Vector2.zero);
+        _isWaiting = true;
+        yield return new WaitForSeconds(2f);
+        _isWaiting = false;
+    }
+    protected virtual void Pursuit() 
     {
         
     }

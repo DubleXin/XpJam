@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,6 +70,42 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -80,7 +116,2086 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528eb56e39094944d9b1f6da947f7b34
+      internalID: -259119326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbfbd96d850d7444852f161f3ede446
+      internalID: 2119442442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719eae3bf1eb1c14b99ca8d8ed920fe1
+      internalID: -1375007251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12ffb0ee98e5ad4bb95e73cbe7e76f0
+      internalID: -1634279220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c477d4832f747a6499df3123c00a7144
+      internalID: 781480975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f943084239dd4428f41516aacdfc86
+      internalID: 1778560971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1168daeb105587844ac3507326a2374a
+      internalID: -561823478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef88815169b86d5469d74bcd59eb3733
+      internalID: 849169019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f1bc40445dd2a49ae5001cde7e0456
+      internalID: -1718003926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177e2cd420300fc49b1f0050e54d7fec
+      internalID: 1619328732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b9d93905dd524cbeb838102920b0e
+      internalID: 822836294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 630
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6ffa03403aeb24c992b9b3715d6207
+      internalID: 1637987285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593b668a8238c4c44a140c7eba7101ba
+      internalID: -2114630426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c388da82321a045b66d68f7d413632
+      internalID: 343216479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1428b4e3671c0704087ef0b60c9eaad4
+      internalID: -493211085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972e2551dc9456240be591090894fa73
+      internalID: -2041094632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4776bed2d4420e74ea9281ab3585e7aa
+      internalID: 862607020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20870a27ca228694894d3cef308f94c7
+      internalID: 1315162221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_18
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ab9156fe6e5874fb02187462c16707
+      internalID: 1426281124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_19
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2216cdd75efac4aa2304bfc8effd6d
+      internalID: 910692593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_20
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a137a5a06d8efa149b4c2e10ec32f9b7
+      internalID: -1529804569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_21
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b7391b20960db44adb9903dfac91cc
+      internalID: 2087723297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e0088f56970da42a2dc0962de349aa
+      internalID: 2147359522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 567
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be80faf5bbcaec408b2e1375123dc16
+      internalID: -205201689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d98d6e13a92f4097ecbd92bd706e7
+      internalID: 972733587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998adc009df1cdf49891a62750a7cd13
+      internalID: -1582816092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5bc00451ee6c348b3c0bf8f542c8da
+      internalID: -470608374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ead9a470a4e0dc4d88a7049b2e65ad7
+      internalID: 2139894456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb526879cd77ac45b6fab2571be6ced
+      internalID: 1154813105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c0f377be95bd45a15ebeb7c6bd410
+      internalID: 1911244163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf83c68c2f06d41b0685478853becd
+      internalID: -221213840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_31
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e71f384a3d1f884382e8c0b18bd69db
+      internalID: 2084549862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_32
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270b208f629c20d41a5428ac822d0f43
+      internalID: 2046474513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_33
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a4c0f2ab879a4a96ed85599664284
+      internalID: 2127158257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_34
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35525269e04e1b43bb42983ae61de6d
+      internalID: 189494605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_35
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 504
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baef99177a691ad40801904f23bf9e8e
+      internalID: -1101617286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbe7b6bb9e7f4b4985e3bf07cc6c0d3
+      internalID: 1772146923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_37
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2faaec72e300314f9168ee8348c43c7
+      internalID: -2005390423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_38
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8d8d393fe77d42921fb78d109bbaa
+      internalID: -1726964010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_39
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d7d47d77b095438bc2a2d12cb36b7
+      internalID: 730758481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_40
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c80e4af6dbebe47b36c98c74a0a3cb
+      internalID: 1249463490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ec28ffbbf4394cacb990087ffd598
+      internalID: -1036160402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_42
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede49523ccd74724193f903ce37a6798
+      internalID: -898838839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb283f89a22ae748ac1e00a998aa266
+      internalID: 1172339254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_44
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dbc6444534dec41b3a5d85ac8db4b7
+      internalID: 232809464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_45
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a2d3ba61bc01d4cbeaf2b2314b1752
+      internalID: 120890418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_46
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3667e56f2849ded4b9603c6771126944
+      internalID: -978963835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_47
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 441
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472658d1e0937d14eb6e5bb18a8e633b
+      internalID: 26680836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c751b5d15dbab642945425264f3bf30
+      internalID: 871441530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bee59298484d9448e3712f6ca413cf
+      internalID: 880473102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acc628f847d9ef4e87481e0ab9c070a
+      internalID: -1509318543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_51
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fafcf004371769479198cdb7d1794c5
+      internalID: -1740352762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb75f212763e5d43a98ed98a03a5f05
+      internalID: -730113686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548dcbb3ae71f9748a36103bcea4a0a7
+      internalID: -581828233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_54
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ddfbe8828034543aafdcae67b45961
+      internalID: 787612873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_55
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa22ad38d85d141baf8246e9c0f170
+      internalID: -147975777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be423178d8297934caa8377ce720e7c5
+      internalID: -1908807776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_57
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1082c63d71aa3da4dbae9fde5d5dd632
+      internalID: -1506858250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_58
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625e3efbab9d9864ba69f3727d0d30f6
+      internalID: 1441703028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_59
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 378
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730dd2475dda7434d8bc0dbe28079376
+      internalID: -1538570995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8dca192c9fa3d43b8d54bb926f48f1
+      internalID: 2065608816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01ad735986adf740ab299234448e686
+      internalID: 1941189415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388a24810e2c09048a47db742fc9fedc
+      internalID: -1912902427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f266754da360114789186e8758b4b0f
+      internalID: -797345860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_64
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9b5eaf45d8244ba1d196328ef3135
+      internalID: -732666477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53ccdef17f2de44da40d266a77cee08
+      internalID: 1275774936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6373eb898c7984280569c2ef072628
+      internalID: -1548474307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_67
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c482951196c52f4fac2e2addc9e14fc
+      internalID: 757914491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_68
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50c3f80433651e4994451129ed2d45c
+      internalID: -2088087868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_69
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6314143849147b24b8e4a8e6f3a4bbb4
+      internalID: -131191766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_70
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bc4e52b0b32e041b05bc329c925383
+      internalID: 1129842401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_71
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 315
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683720841a589094da65341d276d2e36
+      internalID: -1331238076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02866c812de98cd4ead666e08b1541ad
+      internalID: -1577109332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_73
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e34689b948aa4b458096f852e989c3f
+      internalID: 91147873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_74
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db82e9e919969c49a8f94ff054ff783
+      internalID: -1078599389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbd298a543dc26499e9661f7a9019a8
+      internalID: 1493132295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_76
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818b005007a80dd43963582858dc5142
+      internalID: -873792774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_77
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ace8fa059b50d42af498c17d07d14b
+      internalID: 894179480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_78
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6b567684b6074f9d132243a98b34d
+      internalID: 716165955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_79
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8aa5f96e5c58d43842c17ef6516ca3
+      internalID: -416718259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_80
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d2c895b0315bd47a420733a4938d6a
+      internalID: -68933915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_81
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b2b2cb35174d447843b18dce8aa6f8
+      internalID: -811047036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_82
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf22c4fe5e3424f9721f3ce098cac0
+      internalID: 1310203789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_83
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 252
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49be04a1f01faf342a02b4512e4616b1
+      internalID: 426416427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c4bd6025a5244d8b28d8ab3f09331
+      internalID: -1968861414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_85
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54f568e1d8bd846a37b85e78ce2136
+      internalID: -1514904078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_86
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489375155d308fd428a43af6f94aa1dc
+      internalID: 709914684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_87
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b883586dda3dd4292d961315e69420
+      internalID: -2067759575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_88
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f70b6b44fa03a245b24f8e227ad38a2
+      internalID: 403215109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_89
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6da5d938d8df9429fc5979306a0095
+      internalID: 852943765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_90
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09ecdb0235a0914983cc01ec6951569
+      internalID: -1214667787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_91
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3683f8454b99d0743a1a59c3e156af03
+      internalID: -1307365318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_92
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fb19174f782164fb490e9f67a87f73
+      internalID: 1440899230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_93
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6a98340ac98474aa92822fd40b3c68
+      internalID: -611333623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_94
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e198087458bed9e428c0566d692fb220
+      internalID: 502180855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_95
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 189
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18897b6467ef3214386d555b4f8df786
+      internalID: -435191816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1217812bcb35c41b370c592aa17386
+      internalID: 1854931701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_97
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049b4fcba9bd0884eace002b9c7dbd0d
+      internalID: 482792261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antipirate_death_new_53x63_98
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74491d1bba730aa4babd15eeaf6bd4ca
+      internalID: 1296169445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -91,7 +2206,106 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      antipirate_death_new_53x63_9: 1619328732
+      antipirate_death_new_53x63_29: 1911244163
+      antipirate_death_new_53x63_70: 1129842401
+      antipirate_death_new_53x63_50: -1509318543
+      antipirate_death_new_53x63_73: 91147873
+      antipirate_death_new_53x63_17: 1315162221
+      antipirate_death_new_53x63_23: -205201689
+      antipirate_death_new_53x63_15: -2041094632
+      antipirate_death_new_53x63_76: -873792774
+      antipirate_death_new_53x63_12: -2114630426
+      antipirate_death_new_53x63_87: -2067759575
+      antipirate_death_new_53x63_93: -611333623
+      antipirate_death_new_53x63_88: 403215109
+      antipirate_death_new_53x63_66: -1548474307
+      antipirate_death_new_53x63_57: -1506858250
+      antipirate_death_new_53x63_55: -147975777
+      antipirate_death_new_53x63_25: -1582816092
+      antipirate_death_new_53x63_89: 852943765
+      antipirate_death_new_53x63_60: 2065608816
+      antipirate_death_new_53x63_98: 1296169445
+      antipirate_death_new_53x63_8: -1718003926
+      antipirate_death_new_53x63_34: 189494605
+      antipirate_death_new_53x63_2: -1375007251
+      antipirate_death_new_53x63_63: -797345860
+      antipirate_death_new_53x63_1: 2119442442
+      antipirate_death_new_53x63_37: -2005390423
+      antipirate_death_new_53x63_78: 716165955
+      antipirate_death_new_53x63_48: 871441530
+      antipirate_death_new_53x63_13: 343216479
+      antipirate_death_new_53x63_72: -1577109332
+      antipirate_death_new_53x63_19: 910692593
+      antipirate_death_new_53x63_6: -561823478
+      antipirate_death_new_53x63_79: -416718259
+      antipirate_death_new_53x63_74: -1078599389
+      antipirate_death_new_53x63_40: 1249463490
+      antipirate_death_new_53x63_14: -493211085
+      antipirate_death_new_53x63_51: -1740352762
+      antipirate_death_new_53x63_65: 1275774936
+      antipirate_death_new_53x63_80: -68933915
+      antipirate_death_new_53x63_44: 232809464
+      antipirate_death_new_53x63_4: 781480975
+      antipirate_death_new_53x63_91: -1307365318
+      antipirate_death_new_53x63_71: -1331238076
+      antipirate_death_new_53x63_27: 2139894456
+      antipirate_death_new_53x63_33: 2127158257
+      antipirate_death_new_53x63_96: 1854931701
+      antipirate_death_new_53x63_97: 482792261
+      antipirate_death_new_53x63_64: -732666477
+      antipirate_death_new_53x63_26: -470608374
+      antipirate_death_new_53x63_38: -1726964010
+      antipirate_death_new_53x63_75: 1493132295
+      antipirate_death_new_53x63_31: 2084549862
+      antipirate_death_new_53x63_68: -2088087868
+      antipirate_death_new_53x63_90: -1214667787
+      antipirate_death_new_53x63_10: 822836294
+      antipirate_death_new_53x63_41: -1036160402
+      antipirate_death_new_53x63_35: -1101617286
+      antipirate_death_new_53x63_11: 1637987285
+      antipirate_death_new_53x63_46: -978963835
+      antipirate_death_new_53x63_24: 972733587
+      antipirate_death_new_53x63_39: 730758481
+      antipirate_death_new_53x63_0: -259119326
+      antipirate_death_new_53x63_62: -1912902427
+      antipirate_death_new_53x63_5: 1778560971
+      antipirate_death_new_53x63_67: 757914491
+      antipirate_death_new_53x63_52: -730113686
+      antipirate_death_new_53x63_49: 880473102
+      antipirate_death_new_53x63_84: -1968861414
+      antipirate_death_new_53x63_59: -1538570995
+      antipirate_death_new_53x63_85: -1514904078
+      antipirate_death_new_53x63_95: -435191816
+      antipirate_death_new_53x63_54: 787612873
+      antipirate_death_new_53x63_36: 1772146923
+      antipirate_death_new_53x63_69: -131191766
+      antipirate_death_new_53x63_18: 1426281124
+      antipirate_death_new_53x63_32: 2046474513
+      antipirate_death_new_53x63_21: 2087723297
+      antipirate_death_new_53x63_86: 709914684
+      antipirate_death_new_53x63_7: 849169019
+      antipirate_death_new_53x63_42: -898838839
+      antipirate_death_new_53x63_30: -221213840
+      antipirate_death_new_53x63_43: 1172339254
+      antipirate_death_new_53x63_77: 894179480
+      antipirate_death_new_53x63_82: 1310203789
+      antipirate_death_new_53x63_58: 1441703028
+      antipirate_death_new_53x63_47: 26680836
+      antipirate_death_new_53x63_61: 1941189415
+      antipirate_death_new_53x63_16: 862607020
+      antipirate_death_new_53x63_81: -811047036
+      antipirate_death_new_53x63_20: -1529804569
+      antipirate_death_new_53x63_92: 1440899230
+      antipirate_death_new_53x63_94: 502180855
+      antipirate_death_new_53x63_56: -1908807776
+      antipirate_death_new_53x63_28: 1154813105
+      antipirate_death_new_53x63_45: 120890418
+      antipirate_death_new_53x63_22: 2147359522
+      antipirate_death_new_53x63_53: -581828233
+      antipirate_death_new_53x63_83: 426416427
+      antipirate_death_new_53x63_3: -1634279220
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
