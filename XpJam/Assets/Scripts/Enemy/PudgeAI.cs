@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class PudgeAI : MonoBehaviour
 {
@@ -8,10 +9,10 @@ public class PudgeAI : MonoBehaviour
     [SerializeField] private Animator _hook;
     [SerializeField] private GameObject _slash;
     [SerializeField] private float _damage;
-
     private bool _hookOnCD = false, _meleeOnCD = false, _moveOnCD = false;
     private Transform _player;
     private TopDownMovement _movement;
+    private DamageReceiver _receiver;
     private Transform Player 
     {
         get
@@ -21,7 +22,13 @@ public class PudgeAI : MonoBehaviour
             return _player;
         }
     }
-    private void Start() => _movement = GetComponent<TopDownMovement>();
+    private void Start() 
+    { 
+        _movement = GetComponent<TopDownMovement>();
+        _receiver = GetComponent<DamageReceiver>();
+        _receiver.OnDeath += OnDeath;
+    }
+    private void OnDeath() => Destroy(gameObject);
     private void FixedUpdate()
     {
         if (Vector2.Distance(Player.position, transform.position) < _meleeRange)
@@ -38,6 +45,7 @@ public class PudgeAI : MonoBehaviour
         else
             _movement.OnMove(Vector2.zero);
     }
+    
     private IEnumerator Hook()
     {
         yield return new WaitForSeconds(0.6f);
