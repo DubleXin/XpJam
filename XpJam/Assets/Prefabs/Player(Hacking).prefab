@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4710312527060558085}
   - component: {fileID: 4710312527060558087}
   - component: {fileID: 4710312527058123771}
+  - component: {fileID: 1667481765}
   m_Layer: 9
   m_Name: Player(Hacking)
   m_TagString: Player
@@ -232,3 +233,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hp:
     _baseValue: 5
+--- !u!114 &1667481765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4710312527060558090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565becfbfea4bdb41aa7abeca299148f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _slash: {fileID: 8978952460854782982, guid: 38fd3b24d46a3a54eaadb9f82539319d, type: 3}
+  _melleeDamage: 10
+  _meleeCoolDown: 0.5
+  _meleeRange: 3
+  _localSlashPositionX: 0.25
+  _localSlashPositionY: 0.25

@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 2085140828}
   - component: {fileID: 2085140833}
   - component: {fileID: 2085140834}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pudge
   m_TagString: Actuator
   m_Icon: {fileID: 0}
