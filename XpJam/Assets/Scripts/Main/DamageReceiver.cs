@@ -22,7 +22,9 @@ public class DamageReceiver : MonoBehaviour
     }
     public void TakeDamage(float damage, GameObject source)
     {
-        _hp.UpdateBaseValue(_hp.FinalValue - damage);
+        if (_hp.FinalValue <= 0)
+            return;
+        _hp.UpdateBaseValue(-1 * damage);
         if(OnTakingDamage != null)
             OnTakingDamage(out damage);
         if(source != null && OnTakingFromSourceDamage != null)

@@ -17,7 +17,8 @@ GameObject:
   - component: {fileID: 4710312527060558082}
   - component: {fileID: 4710312527060558085}
   - component: {fileID: 4710312527060558087}
-  m_Layer: 3
+  - component: {fileID: 4710312527058123771}
+  m_Layer: 9
   m_Name: Player(Hacking)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -31,7 +32,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4710312527060558090}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.05, y: -0.02, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
@@ -217,3 +218,17 @@ MonoBehaviour:
   _dashingTime: 0
   _dashingCoolDown: 0
   _dashPower: 0
+--- !u!114 &4710312527058123771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4710312527060558090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5899e4f962bb564438066106344d25d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hp:
+    _baseValue: 5
