@@ -10,6 +10,9 @@ public class PatrolAI : MonoBehaviour
     }
     [SerializeField] private float _visionRadius;
     [SerializeField] private Vector2[] _patrolDestinations;
+    [SerializeField] private GameObject _patrolPointsHandler;
+    private SubPointMesh _subPointMesh;
+    private CloseCombatDamageDealerAI _combatAI;
     private bool _isWaiting;
     private int _currentDestination = 0;
     private PatrolState _state = PatrolState.PATROL;
@@ -17,19 +20,36 @@ public class PatrolAI : MonoBehaviour
     private void Start()
     {
         _movement = GetComponent<TopDownMovement>();
+        _combatAI = GetComponent<CloseCombatDamageDealerAI>();
+        if (_patrolPointsHandler.TryGetComponent(out _subPointMesh))
+            _patrolDestinations = _subPointMesh.Points;
         StartCoroutine(SlowUpdate());
     }
     private IEnumerator SlowUpdate()
     {
         while (true) 
         {
-            if (_state == PatrolState.PATROL && Physics2D.CircleCastAll(Vector2.zero,
-                _visionRadius, Vector2.zero, 0, LayerMask.NameToLayer("Creature")).Length > 0)
+            RaycastHit2D[] hit2D = Physics2D.CircleCastAll(Vector2.zero, _visionRadius, Vector2.zero, 0, LayerMask.NameToLayer("Player"));
+            GameObject player;
+            PlayerMovement playerMovement;
+            
+            if (hit2D.Length > 0)
             {
-                _state = PatrolState.PURSUIT;
+                player = GameObject.FindGameObjectWithTag("Player");
+                if (player.transform.gameObject.TryGetComponent(out playerMovement))
+                {
+
+                    bool hitPlayer = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Player"));
+                    bool hitWall = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Occlude"));
+                    bool hitHideaway = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Semi_Occlude"));
+
+                    if (_state == PatrolState.PATROL && playerMovement != null && hitPlayer && ((!hitWall && !hitHideaway) || (!hitWall && hitHideaway && !playerMovement.IsCrouching)))
+                    {
+                        _state = PatrolState.PURSUIT;
+                    }
+                }
             }
-            else if (_state == PatrolState.PURSUIT && Physics2D.CircleCastAll(Vector2.zero,
-                _visionRadius, Vector2.zero, 0, LayerMask.NameToLayer("Creature")).Length == 0) 
+            else if (_state == PatrolState.PURSUIT && hit2D.Length == 0)
             {
                 _state = PatrolState.PATROL;
             }
@@ -38,6 +58,13 @@ public class PatrolAI : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if(_combatAI.enabled && _state == PatrolState.PURSUIT)
+        {
+            if (_combatAI.IsPursuit == false)
+                StopPursuit();
+            else
+                return;
+        }
         if (_state == PatrolState.PATROL) Patrol();
         else Pursuit();
     }
@@ -71,8 +98,13 @@ public class PatrolAI : MonoBehaviour
         yield return new WaitForSeconds(2f);
         _isWaiting = false;
     }
+    protected virtual void StopPursuit()
+    {
+        _state = PatrolState.PATROL;
+        _combatAI.enabled = false;
+    }
     protected virtual void Pursuit() 
     {
-        
+        _combatAI.enabled = true;
     }
 }

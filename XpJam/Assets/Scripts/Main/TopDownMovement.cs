@@ -43,7 +43,8 @@ public class TopDownMovement : MonoBehaviour
     private void FixedUpdate() => Move();
     private void Move()
     {
-        Animate();
+        if(_animator != null && _animator.enabled)
+            Animate();
         Flip();
         Accelerate();
         SpeedCutOff();

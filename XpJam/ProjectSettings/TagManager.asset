@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Actuator
   - Obstacle
+  - PointMesh
   layers:
   - Default
   - TransparentFX
@@ -14,9 +15,9 @@ TagManager:
   - Water
   - UI
   - Creature
-  - 
-  - 
-  - 
+  - Occlude
+  - Semi_Occlude
+  - Player
   - 
   - 
   - 
