@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private TopDownMovement _playerMovement;
     private Dash _playerDash;
     private Rigidbody2D _playerRigidbody;
+    private Animator _playerAnimator;
 
     [Header("Movement params")]
     [SerializeField] private float _movementSpeed;
@@ -30,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         _playerMovement = GetComponent<TopDownMovement>();
         _playerDash = GetComponent<Dash>();
         _playerRigidbody = GetComponent<Rigidbody2D>();
+        _playerAnimator = GetComponent<Animator>();
         _playerDash.OnCanDashChanged += CanDashChanged;
         _playerDash.OnIsDashingChanged += IsDashingChanged;
     }
@@ -50,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnCrouch(InputAction.CallbackContext context)
     {
         _isCrouching = context.ReadValue<float>() == 1 ? true : false;
+        _playerAnimator.SetBool("IsCrouching", _isCrouching);
         if (_isCrouching)
             _playerMovement.SetMovementParams(_movementSpeed * _movementRate, _acceleration * _accelerationRate, _linearDrag * _linearDragRate);
         else

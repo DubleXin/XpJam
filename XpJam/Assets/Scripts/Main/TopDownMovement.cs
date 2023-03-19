@@ -27,7 +27,6 @@ public class TopDownMovement : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _renderer = GetComponent<SpriteRenderer>();
-        
     }
     public void SetMovementParams(float maxSpeed, float acceleration, float linearDrag)
     {
