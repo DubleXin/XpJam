@@ -42,7 +42,7 @@ public class PatrolAI : MonoBehaviour
                     bool hitPlayer = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Player"));
                     bool hitWall = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Occlude"));
                     bool hitHideaway = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Semi_Occlude"));
-
+                    Debug.Log($"{hitPlayer} {hitWall} {hitHideaway} {playerMovement.IsCrouching}");
                     if (_state == PatrolState.PATROL && playerMovement != null && hitPlayer && ((!hitWall && !hitHideaway) || (!hitWall && hitHideaway && !playerMovement.IsCrouching)))
                     {
                         _state = PatrolState.PURSUIT;
