@@ -42,9 +42,9 @@ public class CloseCombatDamageDealerAI : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        bool hitPlayer = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Player"));
-        bool hitWall = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Occlude"));
-        bool hitHideaway = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Semi_Occlude"));
+        RaycastHit2D hitPlayer = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Player"));
+        RaycastHit2D hitWall = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Occlude"));
+        RaycastHit2D hitHideaway = Physics2D.Raycast(transform.position, m_player.transform.position - transform.position, _noticeRange, LayerMask.GetMask("Semi_Occlude"));
 
         if (Vector2.Distance(m_player.transform.position, transform.position) < _meleeRange)
         {
@@ -54,10 +54,12 @@ public class CloseCombatDamageDealerAI : MonoBehaviour
         if (!_isMovementCoolDown)
             if ((m_player.transform.position - transform.position).magnitude < _noticeRange)
             {
-                if (hitPlayer && ((!hitWall && !hitHideaway) || ( !hitWall && hitHideaway && !_playerMovement.IsCrouching)))
+               // Debug.Log($"{hitPlayer} {hitWall} {hitHideaway}");
+                if (hitPlayer && ((!hitWall && !hitHideaway) || ( !hitWall && hitHideaway && !_playerMovement.IsCrouching) 
+                    || (hitWall && hitPlayer.distance < hitWall.distance)))
                 {
                     Debug.DrawRay(transform.position, m_player.transform.position - transform.position, Color.blue);
-                    _movement.OnMove((m_player.transform.position - transform.position).normalized);
+                    _movement.OnMove((m_player.transform.position - transform.position));
                 }
                 else
                 {
