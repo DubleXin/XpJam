@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 2085140834}
   m_Layer: 10
   m_Name: Pudge
-  m_TagString: Actuator
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1128,6 +1128,22 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1667481765, guid: c279d5cdd793d5844b4983ed3c76569e, type: 3}
+      propertyPath: _force
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667481765, guid: c279d5cdd793d5844b4983ed3c76569e, type: 3}
+      propertyPath: _bullet
+      value: 
+      objectReference: {fileID: 3708620950434340071, guid: 8910fb54d1d83c844a0dba523a608b88, type: 3}
+    - target: {fileID: 1667481765, guid: c279d5cdd793d5844b4983ed3c76569e, type: 3}
+      propertyPath: _shootDamage
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667481765, guid: c279d5cdd793d5844b4983ed3c76569e, type: 3}
+      propertyPath: _shootCoolDown
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4710312527060558090, guid: c279d5cdd793d5844b4983ed3c76569e, type: 3}
       propertyPath: m_Name
       value: Player

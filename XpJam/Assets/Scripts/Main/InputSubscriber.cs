@@ -30,7 +30,7 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Crouch.canceled += _playerMovement.OnCrouch;
         _inputHandler.Player.Dash.started += _playerMovement.OnDash;
         _inputHandler.Player.Interact.started += _player.GetComponent<Sensor>().Activate;
-        _inputHandler.Player.Attack.started += _playerCombat.MeleeAtack;
+        _inputHandler.Player.Attack.started += _playerCombat.Attack;
         _inputHandler.Player.Look.performed += _playerCombat.SetLookDirection;
     }
     public void UnsubscribeCharacterDependant()
@@ -41,7 +41,7 @@ public class InputSubscriber : MonoBehaviour
         _inputHandler.Player.Crouch.canceled -= _playerMovement.OnCrouch;
         _inputHandler.Player.Dash.started += _playerMovement.OnDash;
         _inputHandler.Player.Interact.started -= _player.GetComponent<Sensor>().Activate;
-        _inputHandler.Player.Attack.started -= _playerCombat.MeleeAtack;
+        _inputHandler.Player.Attack.started -= _playerCombat.Attack;
         _inputHandler.Player.Look.performed -= _playerCombat.SetLookDirection;
     }
     private void OnEnable()
