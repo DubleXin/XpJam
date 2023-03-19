@@ -29,5 +29,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExSasadaTestTerminal.unity
     guid: 6c72bfcc1505cad4daeedd38a4862ec7
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2a231104fcee4d648886cd2784e4d974
+  - enabled: 1
+    path: Assets/Scenes/battlelvl3.unity
+    guid: f49e691ad0ca1074492b69cb5cf3f30d
+  - enabled: 1
+    path: Assets/Scenes/battlelvl2 1.unity
+    guid: 18592538ca6fea448a314e5095376f27
+  - enabled: 1
+    path: Assets/Scenes/battlelvl1 1.unity
+    guid: 44f6104c4ba8f264193265b29234765f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b8770da430831324c9403b3d487fce58, type: 2}
