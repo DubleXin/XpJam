@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 2085140832}
   - component: {fileID: 2085140828}
   - component: {fileID: 2085140833}
+  - component: {fileID: 2085140834}
   m_Layer: 0
   m_Name: Pudge
   m_TagString: Actuator
@@ -1104,6 +1105,21 @@ MonoBehaviour:
   _hookOrigin: {fileID: 1981508848}
   _hook: {fileID: 364306364}
   _slash: {fileID: 8978952460854782982, guid: f5177fbfa13ae6042bb7134ca33e8989, type: 3}
+  _damage: 3
+--- !u!114 &2085140834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085140825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5899e4f962bb564438066106344d25d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hp:
+    _baseValue: 5
 --- !u!1001 &4710312527058123769
 PrefabInstance:
   m_ObjectHideFlags: 0

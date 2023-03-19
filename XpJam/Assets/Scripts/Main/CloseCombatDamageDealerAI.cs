@@ -77,7 +77,7 @@ public class CloseCombatDamageDealerAI : MonoBehaviour
         _isMeleeCoolDown = true;
         _isMovementCoolDown = true;
         Transform slash = Instantiate(_slash, transform).transform;
-        slash.localPosition = new Vector3(_localSlashPositionX, _localSlashPositionY);
+        slash.localPosition = new Vector3(_localSlashPositionX*_movement.Direction.x, _localSlashPositionY * _movement.Direction.y);
         slash.rotation = Angle.FromAtoB(transform.position, m_player.transform.position + new Vector3(0, 0.1f));
         yield return new WaitForSeconds(_movementCoolDown);
         _isMovementCoolDown = false;
