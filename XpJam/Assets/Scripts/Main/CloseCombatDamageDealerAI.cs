@@ -54,7 +54,6 @@ public class CloseCombatDamageDealerAI : MonoBehaviour
         if (!_isMovementCoolDown)
             if ((m_player.transform.position - transform.position).magnitude < _noticeRange)
             {
-               // Debug.Log($"{hitPlayer} {hitWall} {hitHideaway}");
                 if (hitPlayer && ((!hitWall && !hitHideaway) || ( !hitWall && hitHideaway && !_playerMovement.IsCrouching) 
                     || (hitWall && hitPlayer.distance < hitWall.distance)))
                 {
