@@ -39,11 +39,13 @@ public class PatrolAI : MonoBehaviour
                 if (player.transform.gameObject.TryGetComponent(out playerMovement))
                 {
 
-                    bool hitPlayer = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Player"));
-                    bool hitWall = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Occlude"));
-                    bool hitHideaway = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Semi_Occlude"));
+                    RaycastHit2D hitPlayer = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Player"));
+                    RaycastHit2D hitWall = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Occlude"));
+                    RaycastHit2D hitHideaway = Physics2D.Raycast(transform.position, player.transform.position - transform.position, _visionRadius, LayerMask.GetMask("Semi_Occlude"));
                     
-                    if (_state == PatrolState.PATROL && playerMovement != null && hitPlayer && ((!hitWall && !hitHideaway) || (!hitWall && hitHideaway && !playerMovement.IsCrouching)))
+                    if (_state == PatrolState.PATROL && playerMovement != null && hitPlayer && ((!hitWall && !hitHideaway) 
+                        || (!hitWall && hitHideaway && !playerMovement.IsCrouching) 
+                        || (hitWall && hitPlayer.distance < hitWall.distance)))
                         _state = PatrolState.PURSUIT;
                 }
             }
