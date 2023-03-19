@@ -51,8 +51,8 @@ public class CloseCombatDamageDealerAI : MonoBehaviour
             if (!_isMeleeCoolDown && hitPlayer)
                 StartCoroutine(Melee());
         }
-        else if (!_isMovementCoolDown)
-            if ((new Vector3(_noticeRange, _noticeRange) + transform.position).magnitude > m_player.transform.position.magnitude)
+        if (!_isMovementCoolDown)
+            if ((m_player.transform.position - transform.position).magnitude < _noticeRange)
             {
                 if (hitPlayer && ((!hitWall && !hitHideaway) || ( !hitWall && hitHideaway && !_playerMovement.IsCrouching)))
                 {
